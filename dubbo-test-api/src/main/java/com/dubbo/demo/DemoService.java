@@ -1,9 +1,9 @@
-package com.heihaier.dubbo.demo;
+package com.dubbo.demo;
 
 /**
  * User: heihaier@xfuweng.com
- * Date: 2017/3/15
- * Time: 12:10
+ * Date: 2017/3/14
+ * Time: 18:34
  */
 public interface DemoService {
 

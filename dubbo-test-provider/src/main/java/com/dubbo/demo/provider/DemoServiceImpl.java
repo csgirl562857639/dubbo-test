@@ -1,11 +1,11 @@
-package com.heihaier.dubbo.demo.provider;
+package com.dubbo.demo.provider;
 
-import com.heihaier.dubbo.demo.DemoService;
+import com.dubbo.demo.DemoService;
 
 /**
  * User: heihaier@xfuweng.com
- * Date: 2017/3/15
- * Time: 12:21
+ * Date: 2017/3/14
+ * Time: 18:35
  */
 public class DemoServiceImpl implements DemoService {
 

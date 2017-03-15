@@ -4,10 +4,10 @@ import java.io.IOException;
 
 /**
  * User: heihaier@xfuweng.com
- * Date: 2017/3/15
- * Time: 12:23
+ * Date: 2017/3/14
+ * Time: 18:42
  */
-public class ProviderApplication {
+public class Application {
 
     public static void main(String[] args) throws IOException {
 

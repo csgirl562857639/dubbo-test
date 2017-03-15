@@ -1,12 +1,12 @@
-import com.heihaier.dubbo.demo.DemoService;
+import com.dubbo.demo.DemoService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * User: heihaier@xfuweng.com
- * Date: 2017/3/15
- * Time: 12:17
+ * Date: 2017/3/14
+ * Time: 19:06
  */
-public class ConsumerApplication {
+public class Application {
 
     public static void main(String[] args) {
 
