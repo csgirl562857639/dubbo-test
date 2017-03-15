@@ -1,4 +1,4 @@
-import com.dubbo.demo.DemoService;
+import com.dubbo.demo.Consumer.DemoAction;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
@@ -12,8 +12,11 @@ public class Application {
 
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring-*.xml");
         context.start();
-        DemoService demoService = (DemoService) context.getBean("demoService");
-        String result = demoService.say("heihaier");
-        System.out.println(result);
+//        DemoService demoService = (DemoService) context.getBean("demoService");
+//        String result = demoService.say("heihaier");
+//        System.out.println(result);
+
+        DemoAction demoAction = (DemoAction) context.getBean("demoAction");
+        System.out.println(demoAction.test());
     }
 }
